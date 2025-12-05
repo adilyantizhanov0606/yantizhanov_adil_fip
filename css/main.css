@@ -223,12 +223,13 @@ body {
    color: inherit;
    padding: 5px;
    border-left: 0px solid;
+   transition: all .3s ease-in-out;
  }
  
- #why-choose-us-nav ul li a.selected{
+ #why-choose-us-nav ul li a:hover{
     border-left: #9a2018 solid 5px;
+    transition: all .3s ease-in-out;
   }
-
 /* first-of-type will match the first occurrence of a specified element, even if it doesn’t come absolutely first in the HTML. */
 #why-options section:first-of-type  {
     border-top: solid 3px #CF6666;
@@ -429,3 +430,7 @@ body {
     padding-top: 30px;
     line-height: 22px;
  }
+
+    #about-text {
+      margin-bottom: 30px;
+    } 
