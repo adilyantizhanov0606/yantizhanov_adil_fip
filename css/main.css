@@ -464,7 +464,7 @@ body {
    background-color: #d9d9d9;
  }
 
- 
+
  .card-div {
    display: flex;
    flex-direction: row;
@@ -529,5 +529,57 @@ body {
 
  #hotel-room7 div {
    background-color: #d9d9d9;
+ }
+
+ 
+  #package-header {
+   justify-content: center;
+   text-align: center;
+   margin-top: 25px;
+   margin-bottom: 25px;
+ }
+
+ #package-header div {
+   background-color: #d9d9d9;
+ }
+
+ #package-1 {
+      margin-top: 25px;
+    margin-bottom: 25px;
+ }
+
+ #package-1 div {
+   background-color: #d9d9d9;
+   margin-bottom: 20px;
+ }
+
+ #package-2 {
+      margin-top: 25px;
+    margin-bottom: 25px;
+ }
+
+ #package-2 div {
+   background-color: #d9d9d9;
+   margin-bottom: 20px;
+ }
+
+ #package-3 {
+      margin-top: 25px;
+    margin-bottom: 25px;
+ }
+
+ #package-3 div {
+   background-color: #d9d9d9;
+   margin-bottom: 20px;
+ }
+
+ #package-4 {
+      margin-top: 25px;
+    margin-bottom: 25px;
+ }
+
+ #package-4 div {
+   background-color: #d9d9d9;
+   margin-bottom: 20px;
  }
 
