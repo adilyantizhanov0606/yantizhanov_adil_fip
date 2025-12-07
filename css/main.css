@@ -486,11 +486,10 @@ body {
    background-color: #d9d9d9;
  }
 
-
-
-
-
-
+ details {
+    background: #d9d9d9;
+    padding: 15px;
+ }
 
  /* Desktop Page */
 
@@ -532,11 +531,6 @@ body {
  .book-now-desk:hover {
     box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
  }
-/* 
- #desk-main-hero img {
-    width: 100%;
-
- } */
 
  #desk-main-hero {
     background-image: url(../images/desktop-rooms/desk-rooms-hero.jpg);
@@ -612,7 +606,7 @@ body {
     align-items: center;
 }
 
-/* Contact */
+/* Desktop Contact */
 
 
 
@@ -737,7 +731,14 @@ body {
     margin-top: 50px;
 }
 
+.faq-items input:checked ~ #burger-con {
+    display: block;
+ }
 
+ /* When the checkbox is checked, target the <img> inside the <label> that comes after it. */
+ .faq-items input:checked ~ label img{
+    transform: rotate(90deg);
+ }
 
 
 
