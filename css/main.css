@@ -126,6 +126,7 @@ body {
    grid-row: 1/1; 
 }
 
+
 .book-now {
     background-color: #9a2018;
     color: #fff;
@@ -166,11 +167,13 @@ body {
     line-height: 22px;
  }
 
-  #hero-welcome p:first-of-type {
+
+
+ .redline{
     border-top: solid 3px #CF6666;
     margin-top: 15px;
     padding-top: 20px;
- } 
+ }
 
  #hero-contact {
     font-size: 12px;
@@ -232,8 +235,6 @@ body {
   }
 /* first-of-type will match the first occurrence of a specified element, even if it doesn’t come absolutely first in the HTML. */
 #why-options section:first-of-type  {
-    border-top: solid 3px #CF6666;
-    margin-top: 15px;
     margin-bottom: 15px;
     padding-top: 40px;
 }
@@ -290,8 +291,6 @@ body {
  /* 6. ---About & FAQ --- */
 
 #about-text-group1 {
-    border-top: solid 3px #CF6666;
-    margin-top: 15px;
     padding-top: 40px;
 }
 
@@ -347,8 +346,6 @@ body {
 /* 7. ---Contact Form--- */
 
 #contact-form-text p {
-    border-top: solid 3px #CF6666;
-    margin-top: 15px;
     padding-top: 40px;
     line-height: 22px;
     font-size: 16px;
@@ -456,82 +453,28 @@ body {
     box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
  }
 
- #hotel-room1 {
-   margin-bottom: 25px;
- }
-
- #hotel-room1 div {
-   background-color: #d9d9d9;
- }
-
-
  .card-div {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
    padding: 20px;
+   background-color: #d9d9d9;
  }
 
  .card-text h3 {
    margin: 0;
  }
 
- #hotel-room1 a {
+ .hotel-room a, .package a {
    margin-top: 5px;
    font-weight: bold;
  }
 
- #hotel-room2 {
-   margin-bottom: 25px;
- }
+.hotel-room, .package {
+    margin-bottom: 25px;
+}
 
- #hotel-room2 div {
-   background-color: #d9d9d9;
- }
-
-
-  #hotel-room3 {
-   margin-bottom: 25px;
- }
-
- #hotel-room3 div {
-   background-color: #d9d9d9;
- }
-
-  #hotel-room4 {
-   margin-bottom: 25px;
- }
-
- #hotel-room4 div {
-   background-color: #d9d9d9;
- }
-
-  #hotel-room5 {
-   margin-bottom: 25px;
- }
-
- #hotel-room5 div {
-   background-color: #d9d9d9;
- }
-
-  #hotel-room6 {
-   margin-bottom: 25px;
- }
-
- #hotel-room6 div {
-   background-color: #d9d9d9;
- }
-
-  #hotel-room7 {
-   margin-bottom: 40px;
- }
-
- #hotel-room7 div {
-   background-color: #d9d9d9;
- }
-
- 
   #package-header {
    justify-content: center;
    text-align: center;
@@ -543,43 +486,144 @@ body {
    background-color: #d9d9d9;
  }
 
- #package-1 {
-      margin-top: 25px;
-    margin-bottom: 25px;
+
+
+
+
+
+
+ /* Desktop Page */
+
+ #main-nav-desk ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
  }
 
- #package-1 div {
+ #logo-desk {
+    border-right: 1px solid #626262;
+    padding-right: 20px;
+ }
+
+#main-nav-desk li a {
+     padding: 0 30px 0 20px;
+     text-align: center;
+     color: #626262;
+ }
+
+.book-now-desk {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 1s ease;
+    cursor: pointer;
+    grid-row: 1/2;
+    height: 50px;
+ }
+
+ .book-now-desk:hover {
+    box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+ }
+/* 
+ #desk-main-hero img {
+    width: 100%;
+
+ } */
+
+ #desk-main-hero {
+    background-image: url(../images/desktop-rooms/desk-rooms-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    
+ }
+
+ .desk-hero-img-h2 {
+    background: rgb(255, 255, 255);
+    padding: 15px 15px;
+    font-size: 20px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    align-self: end;
+ }
+
+ .desk-hero-img-h2 span {
+    color: #9a2018;
+    font-size: 12px;
+    margin-bottom: 15px;
+    line-height: 20px;
+ }
+
+ .desk-hero-overlap1 {
+    align-self: end;
+ }
+
+ .desk-button-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 1s ease;
+    cursor: pointer;
+    grid-row:  1/2;
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+ }
+
+ #desk-hero-welcome {
+    font-size: 14px;
+    line-height: 22px;
+ }
+
+  #desk-hero-welcome p:first-of-type {
+    margin-top: 15px;
+    padding-top: 20px;
+ } 
+
+ .desk-card-text {
+    height: 304px;
+    border-radius: 3px;
+ }
+
+ #desk-hotel-room1 .desk-card-text {
+    display: flex;
+   flex-direction: column;
+   justify-content:center;
+   padding: 20px;
    background-color: #d9d9d9;
-   margin-bottom: 20px;
  }
+ 
+.desk-card-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
- #package-2 {
-      margin-top: 25px;
-    margin-bottom: 25px;
- }
 
- #package-2 div {
-   background-color: #d9d9d9;
-   margin-bottom: 20px;
- }
 
- #package-3 {
-      margin-top: 25px;
-    margin-bottom: 25px;
- }
 
- #package-3 div {
-   background-color: #d9d9d9;
-   margin-bottom: 20px;
- }
 
- #package-4 {
-      margin-top: 25px;
-    margin-bottom: 25px;
- }
 
- #package-4 div {
-   background-color: #d9d9d9;
-   margin-bottom: 20px;
- }
+
+ 
+
+
+ 
+
+
+
+
 
