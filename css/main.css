@@ -491,6 +491,18 @@ body {
     padding: 15px;
  }
 
+ #checkbox  {
+   display:flex;
+   margin-left: 20px;
+ }
+
+ input[type="checkbox"]:checked + span::after {
+    content: "👍";
+    padding: 20px;
+}
+
+
+
  /* Desktop Page */
 
 
