@@ -1,2 +1,19 @@
-# yantizhanov_adil_fip
-This is the repository of Final Integrated Project for Interactive Media Design - Term 1 
+
+# Yantizhanov Adil Final Integrated Project Term 1
+This is the build of 4 Web-Pages for the Couples Resort Website - Rooms page(Mobile & Desktop), Activities page and Packages page using the HTML and CSS.
+## Installation
+Select the code feature and select the download ZIP file
+## Usage
+Open the index.html or rooms-desktop.html for desktop version of rooms page on your preferred browser.
+## Contributing
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+## History
+See Commits for History
+## Credits
+Yantizhanov Adil
+## License
+See MIT License
