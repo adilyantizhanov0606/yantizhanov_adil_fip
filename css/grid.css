@@ -73,7 +73,6 @@ body, p, h1, h2, h3, h4, h5 {
 
 .desk-grid-full {
    display: grid;
-   grid-template-columns: 1200px;
 }
 
 .desk-col-span-1 {grid-column: span 1;}
