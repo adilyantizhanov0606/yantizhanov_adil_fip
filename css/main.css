@@ -503,6 +503,7 @@ body {
 
 
 
+
  /* Desktop Page */
 
 
@@ -741,16 +742,19 @@ body {
 .button-now-footer {
     padding: 30px;
     margin-top: 50px;
+    animation-name: fade;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
-.faq-items input:checked ~ #burger-con {
-    display: block;
- }
+@keyframes fade {
+    0% {color: #ffffff;}
+    50% {color: #f9665b;}
+    100% {color: #ffffff;}
+}
 
- /* When the checkbox is checked, target the <img> inside the <label> that comes after it. */
- .faq-items input:checked ~ label img{
-    transform: rotate(90deg);
- }
+
 
 
 
